@@ -1,0 +1,3 @@
+C:/Users/Asus Zenbook/CLionProjects/lab7_part2/cmake-build-debug/CMakeFiles/lab7_part2.dir
+C:/Users/Asus Zenbook/CLionProjects/lab7_part2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Asus Zenbook/CLionProjects/lab7_part2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
