@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
-bool ispoweroftwo(int n) {
-    if (n == 1)
+bool isincreasing(int n) {
+    if (n < 10)
         return true;
-    if (n == 0 || n % 2 != 0)
+    int last = n % 10;
+    int secondLast = (n / 10) % 10;
+    if (secondLast >= last)
         return false;
-    return ispoweroftwo(n / 2);
+    return isincreasing(n / 10);
 }
 int main() {
     int n;
     cin >> n;
-    if (ispoweroftwo(n))
+    if (isincreasing(n))
         cout << "true";
     else
         cout << "false";
